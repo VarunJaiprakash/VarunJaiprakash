@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+int a;
+cout<<"ENTER THE AGE OF VOTER";
+cin>>a;
+if(a<18)
+{
+cout<<"NOT ELIGIBLE FOR VOTING"}
+else
+{
+cout<<"ELIGIBLE FOR VOTING"}
+}
