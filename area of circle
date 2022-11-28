@@ -1,0 +1,15 @@
+import math
+
+x=float(input('ENTER the radius of circle'))
+
+print('area of circle of radius {0} is {1}'.format(x,math.pi*x*x))
+
+
+
+import os
+
+file_details = os.path.splitext('/path/file.ext')
+
+print(file_details)
+
+print(file_details[1])
